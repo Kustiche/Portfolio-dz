@@ -24,9 +24,10 @@ html {
 
 body {
   margin: 0;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
   color: #f5f5f5;
   background-color: #1e1e1e;
-  font-family: "OpenSans-Regular", sans-serif;
 }
 
 .container {
@@ -46,6 +47,10 @@ body {
   text-decoration: none;
 }
 
+.section {
+  padding: 70px 0;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -62,6 +67,16 @@ body {
   color: #528be7;
 }
 
+.title {
+  margin: 0;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 36px;
+}
+
+.text {
+  margin: 0;
+}
+
 .header {
   position: relative;
   padding: 40px 0;
@@ -69,10 +84,10 @@ body {
 .header::after {
   position: absolute;
   content: "";
-  width: 100%;
   border-top: 2px solid #7d7d7d;
   bottom: 0;
   left: 0;
+  width: 100%;
 }
 .header__container {
   max-width: 1170px;
@@ -86,4 +101,54 @@ body {
   margin: 0;
   text-transform: uppercase;
   font-size: 20px;
+}
+
+.hero {
+  padding: 160px 0 195px 0;
+}
+.hero__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 615px;
+}
+.hero__title {
+  margin-bottom: 15px;
+  font-size: 48px;
+  line-height: 100%;
+}
+.hero__title-highlight {
+  position: relative;
+}
+.hero__title-highlight::after {
+  position: absolute;
+  content: "";
+  border-top: 7px solid #528be7;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.hero__text {
+  margin-bottom: 45px;
+}
+.hero__link {
+  padding: 15px 30px;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #528be7;
+  transition: all 0.4s;
+}
+.hero__link:hover {
+  color: #528be7;
+  background-color: #f5f5f5;
+}
+.hero__img {
+  width: 200px;
+  height: 215px;
 }

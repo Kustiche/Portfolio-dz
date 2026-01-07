@@ -1,3 +1,7 @@
+.section {
+  padding: 70px 0;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -15,4 +19,14 @@
       color: #528be7;
     }
   }
+}
+
+.title {
+  margin: 0;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 36px;
+}
+
+.text {
+  margin: 0;
 }
