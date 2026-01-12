@@ -96,7 +96,17 @@
             <p class="contacts__text text">Помогу сверстать, адаптировать и&nbsp;довести до&nbsp;ума.</p>
             <a class="contacts__mail link-reset" href="mailto:my@email.com">my@email.com</a>
           </div>
-          <div class="contacts__form"></div>
+          <form class="contacts__form form" action="#" method="POST">
+            <h3 class="form__heading title">Хотите оценить проект?</h3>
+            <h3 class="form__heading title">Напишите сюда.</h3>
+            <label class="form__label" for="username"><input class="form__input input-reset" name="name" id="username"
+                type="text" placeholder="Как к вам обращаться?" required></label>
+            <label class="form__label" for="email"><input class="form__input input-reset" name="email" id="email"
+                type="email" placeholder="Куда ответить — почта или @username" required></label>
+            <label class="form__label" for="question"><input class="form__input input-reset" name="question"
+                id="question" type="text" placeholder="Опишите задачу или проект" required></label>
+            <button class="form__btn btn-reset">Отправить сообщение</button>
+          </form>
         </div>
       </div>
     </section>
