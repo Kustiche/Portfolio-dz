@@ -358,13 +358,14 @@ body {
 .footer__link {
   margin-right: 10px;
   line-height: 0;
-  transition: transform 0.4s;
+  fill: #f5f5f5;
+  transition: fill 0.4s;
 }
 .footer__link:last-child {
   margin-right: 0;
 }
 .footer__link:hover {
-  transform: scale(0.9);
+  fill: #528be7;
 }
 .footer__icon {
   width: 30px;

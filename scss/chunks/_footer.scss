@@ -39,14 +39,15 @@
   &__link {
     margin-right: 10px;
     line-height: 0;
-    transition: transform 0.4s;
+    fill: #f5f5f5;
+    transition: fill 0.4s;
 
     &:last-child {
       margin-right: 0;
     }
 
     &:hover {
-      transform: scale(0.9);
+      fill: #528be7;
     }
   }
 
