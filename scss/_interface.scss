@@ -1,5 +1,9 @@
 .section {
   padding: 70px 0;
+
+  @media (max-width: 576px) {
+    padding: 40px 0;
+  }
 }
 
 .menu {
@@ -30,6 +34,10 @@
   margin: 0;
   font-family: 'Montserrat-Bold', sans-serif;
   font-size: 36px;
+
+  @media (max-width: 576px) {
+    font-size: 28px;
+  }
 }
 
 .text {
