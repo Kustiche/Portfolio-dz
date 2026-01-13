@@ -18,6 +18,11 @@
     &:hover {
       color: #528be7;
     }
+
+    @media (max-width: 768px) {
+      margin-right: 10px;
+      font-size: 16px;
+    }
   }
 }
 
