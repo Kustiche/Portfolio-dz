@@ -232,10 +232,16 @@ body {
   flex-direction: column;
   align-items: flex-start;
   max-width: 615px;
+  width: 100%;
 }
 @media (max-width: 768px) {
   .hero__content {
     max-width: 365px;
+  }
+}
+@media (max-width: 576px) {
+  .hero__content {
+    max-width: 100%;
   }
 }
 .hero__title {
