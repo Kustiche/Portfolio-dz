@@ -2,12 +2,25 @@
   &__title {
     text-align: center;
     margin-bottom: 100px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 50px;
+    }
+
+    @media (max-width: 576px) {
+      margin-bottom: 20px;
+    }
   }
 
   &__content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media (max-width: 576px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__discussion {
@@ -15,6 +28,12 @@
     flex-direction: column;
     align-items: flex-start;
     max-width: 325px;
+    width: 100%;
+
+    @media (max-width: 576px) {
+      margin-bottom: 15px;
+      max-width: 100%;
+    }
   }
 
   &__heading {
@@ -24,10 +43,18 @@
     &:last-child {
       margin-bottom: 15px;
     }
+
+    @media (max-width: 576px) {
+      font-size: 22px;
+    }
   }
 
   &__text {
     margin-bottom: 50px;
+
+    @media (max-width: 576px) {
+      margin-bottom: 10px;
+    }
   }
 
   &__mail {
