@@ -1,152 +1,135 @@
-<!DOCTYPE html>
-<html lang="ru">
-
+<!doctype html>
+<html lang=ru>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Портфолио</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="img/index/favicon/favicon.svg" type="image/svg+xml">
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Портфолио</title>
+<link rel=stylesheet href=css/style.css>
+<link rel="shortcut icon" href=img/index/favicon/favicon.svg type=image/svg+xml>
 </head>
-
 <body>
-  <header class="header">
-    <div class="header__container container">
-      <div class="header__content">
-        <p class="header__logo">@Nickname</p>
-        <nav class="header__nav">
-          <ul class="header__menu menu list-reset">
-            <li class="menu__item">
-              <a class="menu__link link-reset" href="#">Мои проекты</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link link-reset" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="container">
-        <div class="hero__wrap">
-          <div class="hero__content">
-            <h1 class="hero__title title">Я занимаюсь созданием <span class="hero__title-highlight">сайтов</span></h1>
-            <p class="hero__text text">Верстаю страницы по&nbsp;макетам, делаю адаптив под все экраны и&nbsp;слежу,
-              чтобы
-              сайт
-              работал корректно во&nbsp;всех
-              популярных браузерах</p>
-            <a class="hero__link link-reset" href="#">Примеры сайтов</a>
-          </div>
-          <img class="hero__img" src="img/index/hero/human.webp" alt="Человек">
-
-        </div>
-      </div>
-    </section>
-
-    <section class="projects section">
-      <div class="container">
-        <h2 class="projects__title title">Мои проекты</h2>
-        <div class="projects__content">
-          <div class="projects__inner">
-            <div class="projects__inner-skreen">
-              <img class="projects__img" src="img/index/projects/basket.webp" alt="Корзина">
-              <h3 class="projects__caption title">Будущий скрин крутого интернет-магазина</h3>
-            </div>
-            <div class="projects__inner-content">
-              <h3 class="projects__heading title">Магазин мечты</h3>
-              <p class="projects__text text">Шопинг, как в&nbsp;сказке&nbsp;&mdash; выбирай, нажимай, покупай!</p>
-            </div>
-          </div>
-          <div class="projects__inner">
-            <div class="projects__inner-skreen projects__inner-skreen--media-576-on">
-              <img class="projects__img" src="img/index/projects/palette.webp" alt="Палитра">
-              <h3 class="projects__caption title">Будущий скрин стильного портфолио</h3>
-            </div>
-            <div class="projects__inner-content projects__inner-content--right">
-              <h3 class="projects__heading title">Мое яркое творчество</h3>
-              <p class="projects__text text">В&nbsp;этом проекте соберу лучшие работы, чтобы все ахнули</p>
-            </div>
-            <div class="projects__inner-skreen projects__inner-skreen--media-576-off">
-              <img class="projects__img" src="img/index/projects/palette.webp" alt="Палитра">
-              <h3 class="projects__caption title">Будущий скрин стильного портфолио</h3>
-            </div>
-          </div>
-          <div class="projects__inner">
-            <div class="projects__inner-skreen">
-              <img class="projects__img" src="img/index/projects/smartphone.webp" alt="Смартфон">
-              <h3 class="projects__caption title">Будущий скрин адаптивного шедевра</h3>
-            </div>
-            <div class="projects__inner-content">
-              <h3 class="projects__heading title">Работает везде, кроме микроволновки</h3>
-              <p class="projects__text text">Будущий сайт, который идеально смотрится и&nbsp;на&nbsp;телефоне,
-                и&nbsp;на&nbsp;тостере (шутка). Адаптив
-                будет&nbsp;&mdash; проверено флексами!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contacts section">
-      <div class="container">
-        <h2 class="contacts__title title">Контакты</h2>
-        <div class="contacts__content">
-          <div class="contacts__discussion">
-            <h3 class="contacts__heading title">Есть проект?</h3>
-            <h3 class="contacts__heading title">Давайте обсудим.</h3>
-            <p class="contacts__text text">Помогу сверстать, адаптировать и&nbsp;довести до&nbsp;ума.</p>
-            <a class="contacts__mail link-reset" href="mailto:my@email.com">my@email.com</a>
-          </div>
-          <form class="contacts__form form" action="#" method="POST">
-            <h3 class="form__heading title">Хотите оценить проект?</h3>
-            <h3 class="form__heading title">Напишите сюда.</h3>
-            <label class="form__label" for="username"><input class="form__input input-reset" name="name" id="username"
-                type="text" placeholder="Как к вам обращаться?" required></label>
-            <label class="form__label" for="email"><input class="form__input input-reset" name="email" id="email"
-                type="email" placeholder="Куда ответить — почта или @username" required></label>
-            <label class="form__label" for="question"><input class="form__input input-reset" name="question"
-                id="question" type="text" placeholder="Опишите задачу или проект" required></label>
-            <button class="form__btn btn-reset">Отправить сообщение</button>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__content">
-        <img class="footer__img" src="img/index/footer/head.webp" alt="Подмигивающее лицо">
-        <h2 class="footer__title title">Спасибо за просмотр!</h2>
-        <div class="footer__messengers">
-          <a class="footer__link link-reset" href="mailto:my@email.com">
-            <svg class="footer__icon">
-              <use href="img/sprite.svg#mail"></use>
-            </svg>
-          </a>
-          <a class="footer__link link-reset" href="#">
-            <svg class="footer__icon">
-              <use href="img/sprite.svg#telegram"></use>
-            </svg>
-          </a>
-          <a class="footer__link link-reset" href="#">
-            <svg class="footer__icon">
-              <use href="img/sprite.svg#whatsapp"></use>
-            </svg>
-          </a>
-          <a class="footer__link link-reset" href="#">
-            <svg class="footer__icon">
-              <use href="img/sprite.svg#github"></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
+<header class=header>
+<div class="header__container container">
+<div class=header__content>
+<p class=header__logo>@Nickname</p>
+<nav class=header__nav>
+<ul class="header__menu menu list-reset">
+<li class=menu__item>
+<a class="menu__link link-reset" href=#>Мои проекты</a>
+</li>
+<li class=menu__item>
+<a class="menu__link link-reset" href=#>Контакты</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+<main>
+<section class=hero>
+<div class=container>
+<div class=hero__wrap>
+<div class=hero__content>
+<h1 class="hero__title title">Я занимаюсь созданием <span class=hero__title-highlight>сайтов</span></h1>
+<p class="hero__text text">Верстаю страницы по&nbsp;макетам, делаю адаптив под все экраны и&nbsp;слежу, чтобы сайт работал корректно во&nbsp;всех популярных браузерах</p>
+<a class="hero__link link-reset" href=#>Примеры сайтов</a>
+</div>
+<img class=hero__img src=img/index/hero/human.webp alt=Человек>
+</div>
+</div>
+</section>
+<section class="projects section">
+<div class=container>
+<h2 class="projects__title title">Мои проекты</h2>
+<div class=projects__content>
+<div class=projects__inner>
+<div class=projects__inner-skreen>
+<img class=projects__img src=img/index/projects/basket.webp alt=Корзина>
+<h3 class="projects__caption title">Будущий скрин крутого интернет-магазина</h3>
+</div>
+<div class=projects__inner-content>
+<h3 class="projects__heading title">Магазин мечты</h3>
+<p class="projects__text text">Шопинг, как в&nbsp;сказке&nbsp;&mdash; выбирай, нажимай, покупай!</p>
+</div>
+</div>
+<div class=projects__inner>
+<div class="projects__inner-skreen projects__inner-skreen--media-576-on">
+<img class=projects__img src=img/index/projects/palette.webp alt=Палитра>
+<h3 class="projects__caption title">Будущий скрин стильного портфолио</h3>
+</div>
+<div class="projects__inner-content projects__inner-content--right">
+<h3 class="projects__heading title">Мое яркое творчество</h3>
+<p class="projects__text text">В&nbsp;этом проекте соберу лучшие работы, чтобы все ахнули</p>
+</div>
+<div class="projects__inner-skreen projects__inner-skreen--media-576-off">
+<img class=projects__img src=img/index/projects/palette.webp alt=Палитра>
+<h3 class="projects__caption title">Будущий скрин стильного портфолио</h3>
+</div>
+</div>
+<div class=projects__inner>
+<div class=projects__inner-skreen>
+<img class=projects__img src=img/index/projects/smartphone.webp alt=Смартфон>
+<h3 class="projects__caption title">Будущий скрин адаптивного шедевра</h3>
+</div>
+<div class=projects__inner-content>
+<h3 class="projects__heading title">Работает везде, кроме микроволновки</h3>
+<p class="projects__text text">Будущий сайт, который идеально смотрится и&nbsp;на&nbsp;телефоне, и&nbsp;на&nbsp;тостере (шутка). Адаптив будет&nbsp;&mdash; проверено флексами!</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="contacts section">
+<div class=container>
+<h2 class="contacts__title title">Контакты</h2>
+<div class=contacts__content>
+<div class=contacts__discussion>
+<h3 class="contacts__heading title">Есть проект?</h3>
+<h3 class="contacts__heading title">Давайте обсудим.</h3>
+<p class="contacts__text text">Помогу сверстать, адаптировать и&nbsp;довести до&nbsp;ума.</p>
+<a class="contacts__mail link-reset" href=mailto:my@email.com>my@email.com</a>
+</div>
+<form class="contacts__form form" action=# method=POST>
+<h3 class="form__heading title">Хотите оценить проект?</h3>
+<h3 class="form__heading title">Напишите сюда.</h3>
+<label class=form__label for=username><input class="form__input input-reset" name=name id=username placeholder="Как к вам обращаться?" required></label>
+<label class=form__label for=email><input class="form__input input-reset" name=email id=email type=email placeholder="Куда ответить — почта или @username" required></label>
+<label class=form__label for=question><input class="form__input input-reset" name=question id=question placeholder="Опишите задачу или проект" required></label>
+<button class="form__btn btn-reset">Отправить сообщение</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<footer class=footer>
+<div class=container>
+<div class=footer__content>
+<img class=footer__img src=img/index/footer/head.webp alt="Подмигивающее лицо">
+<h2 class="footer__title title">Спасибо за просмотр!</h2>
+<div class=footer__messengers>
+<a class="footer__link link-reset" href=mailto:my@email.com>
+<svg class=footer__icon>
+<use href=img/sprite.svg#mail></use>
+</svg>
+</a>
+<a class="footer__link link-reset" href=#>
+<svg class=footer__icon>
+<use href=img/sprite.svg#telegram></use>
+</svg>
+</a>
+<a class="footer__link link-reset" href=#>
+<svg class=footer__icon>
+<use href=img/sprite.svg#whatsapp></use>
+</svg>
+</a>
+<a class="footer__link link-reset" href=#>
+<svg class=footer__icon>
+<use href=img/sprite.svg#github></use>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
 </body>
-
 </html>
