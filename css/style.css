@@ -329,7 +329,7 @@ body {
 }
 .hero__img {
   width: 200px;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
 }
 @media (max-width: 768px) {
